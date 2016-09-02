@@ -47,16 +47,16 @@ public class MainController {
 		//		subTabPaneRecord.setVisible(false);
 		//		subTabPaneSetting.setVisible(false);
 
-		appendDataTab.setStyle("-fx-background-color:darkgray");
-		addEntryTab.setStyle("-fx-background-color:darkgray");
-		addEmployeeTab.setStyle("-fx-background-color:lightgray");
-		addStockTab.setStyle("-fx-background-color:lightgray");
-		addMobileTab.setStyle("-fx-background-color:lightgray");
+//		appendDataTab.setStyle("-fx-background-color:darkgray");
+//		addEntryTab.setStyle("-fx-background-color:darkgray");
+//		addEmployeeTab.setStyle("-fx-background-color:lightgray");
+//		addStockTab.setStyle("-fx-background-color:lightgray");
+//		addMobileTab.setStyle("-fx-background-color:lightgray");
 
-		searchTab.setStyle("-fx-background-color:lightgray");
-		settingTab.setStyle("-fx-background-color:lightgray");
-		recordTab.setStyle("-fx-background-color:lightgray");
-		helpTab.setStyle("-fx-background-color:lightgray");
+//		searchTab.setStyle("-fx-background-color:lightgray");
+//		settingTab.setStyle("-fx-background-color:lightgray");
+//		recordTab.setStyle("-fx-background-color:lightgray");
+//		helpTab.setStyle("-fx-background-color:lightgray");
 		
 		try {
 			scrollPane.setContent(FXMLLoader.load(getClass().getResource("/application/AddEntryLayout.fxml")));
@@ -71,11 +71,11 @@ public class MainController {
 		//		subTabPaneRecord.setVisible(false);
 		//		subTabPaneSetting.setVisible(false);
 
-		appendDataTab.setStyle("-fx-background-color:darkgray");
-		searchTab.setStyle("-fx-background-color:lightgray");
-		settingTab.setStyle("-fx-background-color:lightgray");
-		recordTab.setStyle("-fx-background-color:lightgray");
-		helpTab.setStyle("-fx-background-color:lightgray");
+//		appendDataTab.setStyle("-fx-background-color:darkgray");
+//		searchTab.setStyle("-fx-background-color:lightgray");
+//		settingTab.setStyle("-fx-background-color:lightgray");
+//		recordTab.setStyle("-fx-background-color:lightgray");
+//		helpTab.setStyle("-fx-background-color:lightgray");
 	}
 
 	public void recordOnClicked() throws IOException {
@@ -84,11 +84,11 @@ public class MainController {
 		//		subTabPaneRecord.setVisible(true);
 		//		subTabPaneSetting.setVisible(false);
 
-		appendDataTab.setStyle("-fx-background-color:lightgray");
-		searchTab.setStyle("-fx-background-color:lightgray");
-		settingTab.setStyle("-fx-background-color:lightgray");
-		recordTab.setStyle("-fx-background-color:darkgray");
-		helpTab.setStyle("-fx-background-color:lightgray");
+//		appendDataTab.setStyle("-fx-background-color:lightgray");
+//		searchTab.setStyle("-fx-background-color:lightgray");
+//		settingTab.setStyle("-fx-background-color:lightgray");
+//		recordTab.setStyle("-fx-background-color:darkgray");
+//		helpTab.setStyle("-fx-background-color:lightgray");
 	}
 
 	public void searchOnClicked() {
@@ -96,11 +96,11 @@ public class MainController {
 		//		subTabPaneRecord.setVisible(false);
 		//		subTabPaneSetting.setVisible(false);
 
-		appendDataTab.setStyle("-fx-background-color:lightgray");
-		searchTab.setStyle("-fx-background-color:darkgray");
-		settingTab.setStyle("-fx-background-color:lightgray");
-		recordTab.setStyle("-fx-background-color:lightgray");
-		helpTab.setStyle("-fx-background-color:lightgray");
+//		appendDataTab.setStyle("-fx-background-color:lightgray");
+//		searchTab.setStyle("-fx-background-color:darkgray");
+//		settingTab.setStyle("-fx-background-color:lightgray");
+//		recordTab.setStyle("-fx-background-color:lightgray");
+//		helpTab.setStyle("-fx-background-color:lightgray");
 	}
 
 	public void settingOnClicked() {
@@ -108,11 +108,11 @@ public class MainController {
 		//		subTabPaneRecord.setVisible(false);
 		//		subTabPaneSetting.setVisible(true);
 
-		appendDataTab.setStyle("-fx-background-color:lightgray");
-		searchTab.setStyle("-fx-background-color:lightgray");
-		settingTab.setStyle("-fx-background-color:darkgray");
-		recordTab.setStyle("-fx-background-color:lightgray");
-		helpTab.setStyle("-fx-background-color:lightgray");
+//		appendDataTab.setStyle("-fx-background-color:lightgray");
+//		searchTab.setStyle("-fx-background-color:lightgray");
+//		settingTab.setStyle("-fx-background-color:darkgray");
+//		recordTab.setStyle("-fx-background-color:lightgray");
+//		helpTab.setStyle("-fx-background-color:lightgray");
 	}
 
 	public void helpOnClicked() {
@@ -120,47 +120,47 @@ public class MainController {
 		//		subTabPaneRecord.setVisible(false);
 		//		subTabPaneSetting.setVisible(false);
 
-		appendDataTab.setStyle("-fx-background-color:lightgray");
-		searchTab.setStyle("-fx-background-color:lightgray");
-		settingTab.setStyle("-fx-background-color:lightgray");
-		recordTab.setStyle("-fx-background-color:lightgray");
-		helpTab.setStyle("-fx-background-color:darkgray");
+//		appendDataTab.setStyle("-fx-background-color:lightgray");
+//		searchTab.setStyle("-fx-background-color:lightgray");
+//		settingTab.setStyle("-fx-background-color:lightgray");
+//		recordTab.setStyle("-fx-background-color:lightgray");
+//		helpTab.setStyle("-fx-background-color:darkgray");
 	}
 
 	@FXML
 	public void addEntryOnClicked(){
 
-		addEntryTab.setStyle("-fx-background-color:darkgray");
-		addEmployeeTab.setStyle("-fx-background-color:lightgray");
-		addStockTab.setStyle("-fx-background-color:lightgray");
-		addMobileTab.setStyle("-fx-background-color:lightgray");
+//		addEntryTab.setStyle("-fx-background-color:darkgray");
+//		addEmployeeTab.setStyle("-fx-background-color:lightgray");
+//		addStockTab.setStyle("-fx-background-color:lightgray");
+//		addMobileTab.setStyle("-fx-background-color:lightgray");
 	}
 
 	@FXML
 	public void addEmployeeOnClicked(){
 
-		addEntryTab.setStyle("-fx-background-color:lightgray");
-		addEmployeeTab.setStyle("-fx-background-color:darkgray");
-		addStockTab.setStyle("-fx-background-color:lightgray");
-		addMobileTab.setStyle("-fx-background-color:lightgray");
+//		addEntryTab.setStyle("-fx-background-color:lightgray");
+//		addEmployeeTab.setStyle("-fx-background-color:darkgray");
+//		addStockTab.setStyle("-fx-background-color:lightgray");
+//		addMobileTab.setStyle("-fx-background-color:lightgray");
 	}
 
 	@FXML
 	public void addMobileOnClicked(){
 
-		addEntryTab.setStyle("-fx-background-color:lightgray");
-		addEmployeeTab.setStyle("-fx-background-color:lightgray");
-		addStockTab.setStyle("-fx-background-color:lightgray");
-		addMobileTab.setStyle("-fx-background-color:darkgray");
+//		addEntryTab.setStyle("-fx-background-color:lightgray");
+//		addEmployeeTab.setStyle("-fx-background-color:lightgray");
+//		addStockTab.setStyle("-fx-background-color:lightgray");
+//		addMobileTab.setStyle("-fx-background-color:darkgray");
 	}
 
 	@FXML
 	public void addStockOnClicked(){
 
-		addEntryTab.setStyle("-fx-background-color:lightgray");
-		addEmployeeTab.setStyle("-fx-background-color:lightgray");
-		addStockTab.setStyle("-fx-background-color:darkgray");
-		addMobileTab.setStyle("-fx-background-color:lightgray");
+//		addEntryTab.setStyle("-fx-background-color:lightgray");
+//		addEmployeeTab.setStyle("-fx-background-color:lightgray");
+//		addStockTab.setStyle("-fx-background-color:darkgray");
+//		addMobileTab.setStyle("-fx-background-color:lightgray");
 	}
 
 

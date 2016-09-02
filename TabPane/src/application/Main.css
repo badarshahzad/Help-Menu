@@ -2,9 +2,15 @@
 
 #tabPane {
 	
-	-fx-background-color: lightgray;
+	-fx-background-color: #607D8B;
 }
 
 #subTabPaneAppendData {
-	-fx-background-color: lightgray;
+	-fx-background-color: #607D8B;
+}
+.root{
+	-fx-background-color: #607D8B;
+}
+#addEntryLayout{
+	-fx-background-color: #607D8B;
 }

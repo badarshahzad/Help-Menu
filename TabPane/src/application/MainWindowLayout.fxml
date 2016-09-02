@@ -8,112 +8,112 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8.0.72" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
 	<children>
-		<AnchorPane id="tabPane" prefHeight="94.0" prefWidth="1400.0" stylesheets="/application/Main.css">
+		<AnchorPane id="tabPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="90.0" prefWidth="1400.0" stylesheets="/application/Main.css">
 			<children>
-            <Pane fx:id="appendDataTab" layoutX="371.0" layoutY="1.0" prefHeight="94.0" prefWidth="96.0">
+            <Pane fx:id="appendDataTab" layoutX="371.0" layoutY="1.0">
                <children>
-      				<ImageView fitHeight="49.0" fitWidth="47.0" layoutX="27.0" layoutY="18.0" onMouseClicked="#appendDataOnClicked" pickOnBounds="true" preserveRatio="true">
+      				<ImageView fitHeight="32.0" fitWidth="32.0" layoutX="20.0" layoutY="20.0" onMouseClicked="#appendDataOnClicked" pickOnBounds="true" preserveRatio="true">
       					<image>
-      						<Image url="@../../../../Desktop/AppendData.png" />
+      						<Image url="@../images/AppendData.png" />
       					</image>
       				</ImageView>
-      				<Label layoutX="9.0" layoutY="69.0" onMouseClicked="#appendDataOnClicked" prefHeight="16.0" prefWidth="87.0" text="Append Data" />
+      				<Label layoutY="60.0" onMouseClicked="#appendDataOnClicked" text="Append Data" textAlignment="CENTER" />
                </children>
             </Pane>
             <Pane fx:id="recordTab" layoutX="477.0" layoutY="1.0" prefHeight="94.0" prefWidth="106.0">
                <children>
-      				<ImageView fitHeight="49.0" fitWidth="47.0" layoutX="27.0" layoutY="18.0" onMouseClicked="#recordOnClicked" pickOnBounds="true" preserveRatio="true">
+      				<ImageView fitHeight="32.0" fitWidth="32.0" layoutX="20.0" layoutY="20.0" onMouseClicked="#recordOnClicked" pickOnBounds="true" preserveRatio="true">
       					<image>
-      						<Image url="@../../../../Desktop/Record.png" />
+      						<Image url="@../images/Record.png" />
       					</image>
       				</ImageView>
-                  <Label layoutX="27.0" layoutY="69.0" onMouseClicked="#recordOnClicked" prefHeight="16.0" prefWidth="47.0" text="Record" />
+                  <Label layoutX="12.0" layoutY="60.0" onMouseClicked="#recordOnClicked" text="Record" />
                </children>
             </Pane>
             <Pane fx:id="searchTab" layoutX="583.0" layoutY="1.0" prefHeight="94.0" prefWidth="106.0">
                <children>
-      				<ImageView fitHeight="40.0" fitWidth="40.0" layoutX="32.0" layoutY="22.0" onMouseClicked="#searchOnClicked" pickOnBounds="true" preserveRatio="true">
+      				<ImageView fitHeight="32.0" fitWidth="32.0" layoutX="20.0" layoutY="20.0" onMouseClicked="#searchOnClicked" pickOnBounds="true" preserveRatio="true">
       					<image>
-      						<Image url="@../../../../Desktop/Search.png" />
+      						<Image url="@../images/Search.png" />
       					</image>
       				</ImageView>
-      				<Label layoutX="27.0" layoutY="69.0" onMouseClicked="#searchOnClicked" text="Search" />
+      				<Label layoutX="10.0" layoutY="60.0" onMouseClicked="#searchOnClicked" text="Search" />
                </children>
             </Pane>
             <Pane fx:id="helpTab" layoutX="795.0" layoutY="1.0" prefHeight="94.0" prefWidth="106.0">
                <children>
-      				<ImageView fitHeight="40.0" fitWidth="40.0" layoutX="27.0" layoutY="18.0" onMouseClicked="#helpOnClicked" pickOnBounds="true" preserveRatio="true">
+      				<ImageView fitHeight="32.0" fitWidth="32.0" layoutX="20.0" layoutY="20.0" onMouseClicked="#helpOnClicked" pickOnBounds="true" preserveRatio="true">
       					<image>
-      						<Image url="@../../../../Desktop/Help.png" />
+      						<Image url="@../images/Help.png" />
       					</image>
       				</ImageView>
-                  <Label layoutX="27.0" layoutY="69.0" onMouseClicked="#helpOnClicked" text="Help" />
+                  <Label layoutX="18.0" layoutY="60.0" onMouseClicked="#helpOnClicked" text="Help" />
                </children>
             </Pane>
             <Pane fx:id="settingTab" layoutX="689.0" layoutY="1.0" prefHeight="94.0" prefWidth="106.0">
                <children>
-                  <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="32.0" layoutY="22.0" onMouseClicked="#settingOnClicked" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="20.0" layoutY="20.0" onMouseClicked="#settingOnClicked" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../Desktop/Setting.png" />
+                        <Image url="@../images/Setting.png" />
                      </image>
                   </ImageView>
-      				<Label layoutX="27.0" layoutY="69.0" onMouseClicked="#settingOnClicked" text="Setting" />
+      				<Label layoutX="10.0" layoutY="60.0" onMouseClicked="#settingOnClicked" text="Setting" />
                </children>
             </Pane>
 			</children>
 		</AnchorPane>
 
-     <HBox fx:id="subTabPaneAppendData" layoutY="93.0" prefHeight="94.0" prefWidth="1400.0">
+     <HBox fx:id="subTabPaneAppendData" layoutX="-3.0" layoutY="77.0" prefHeight="69.0" prefWidth="1400.0">
          <children>
-            <AnchorPane prefHeight="94.0" prefWidth="1400.0">
+            <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="1400.0">
                <children>
-                  <Pane fx:id="addEntryTab" layoutX="421.0" prefHeight="94.0" prefWidth="106.0">
+                  <Pane fx:id="addEntryTab" layoutX="421.0">
                      <children>
-                        <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="27.0" layoutY="18.0" onMouseClicked="#addEntryOnClicked" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="10.0" layoutY="10.0" onMouseClicked="#addEntryOnClicked" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../Desktop/AddEntry.png" />
+                              <Image url="@../images/AddEntry.png" />
                            </image>
                         </ImageView>
-                        <Label layoutX="18.0" layoutY="67.0" onMouseClicked="#addEntryOnClicked" prefHeight="16.0" prefWidth="87.0" text="Add Entry" />
+                        <Label layoutY="48.0" onMouseClicked="#addEntryOnClicked" text="Add Entry" />
                      </children>
                   </Pane>
-                  <Pane fx:id="addEmployeeTab" layoutX="527.0" prefHeight="94.0" prefWidth="106.0">
+                  <Pane fx:id="addEmployeeTab" layoutX="527.0">
                      <children>
-                        <ImageView fitHeight="49.0" fitWidth="40.0" layoutX="27.0" layoutY="18.0" onMouseClicked="#addEmployeeOnClicked" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="10.0" layoutY="10.0" onMouseClicked="#addEmployeeOnClicked" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../Desktop/AddEmployee.png" />
+                              <Image url="@../images/AddEmployee.png" />
                            </image>
                         </ImageView>
-                        <Label layoutX="5.0" layoutY="67.0" onMouseClicked="#addEmployeeOnClicked" prefHeight="16.0" prefWidth="96.0" text="Add Employee" />
+                        <Label layoutY="48.0" onMouseClicked="#addEmployeeOnClicked" text="Employee" />
                      </children>
                   </Pane>
-                  <Pane fx:id="addMobileTab" layoutX="633.0" prefHeight="94.0" prefWidth="106.0">
+                  <Pane fx:id="addMobileTab" layoutX="633.0">
                      <children>
-                        <ImageView fitHeight="49.0" fitWidth="40.0" layoutX="27.0" layoutY="18.0" onMouseClicked="#addMobileOnClicked" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="10.0" layoutY="10.0" onMouseClicked="#addMobileOnClicked" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../Desktop/AddMobile.png" />
+                              <Image url="@../images/AddMobile.png" />
                            </image>
                         </ImageView>
-                        <Label layoutX="15.0" layoutY="67.0" onMouseClicked="#addMobileOnClicked" prefHeight="16.0" prefWidth="96.0" text="Add Mobile" />
+                        <Label layoutX="4.0" layoutY="48.0" onMouseClicked="#addMobileOnClicked" text="Mobile" />
                      </children>
                   </Pane>
-                  <Pane fx:id="addStockTab" layoutX="739.0" prefHeight="94.0" prefWidth="106.0">
+                  <Pane fx:id="addStockTab" layoutX="739.0">
                      <children>
-                        <ImageView fitHeight="49.0" fitWidth="40.0" layoutX="27.0" layoutY="18.0" onMouseClicked="#addStockOnClicked" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="10.0" layoutY="10.0" onMouseClicked="#addStockOnClicked" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../Desktop/AddStock.png" />
+                              <Image url="@../images/AddStock.png" />
                            </image>
                         </ImageView>
-                        <Label layoutX="11.0" layoutY="67.0" onMouseClicked="#addStockOnClicked" prefHeight="16.0" prefWidth="106.0" text="Add Stock" />
+                        <Label layoutX="8.0" layoutY="48.0" onMouseClicked="#addStockOnClicked" text="Stock" />
                      </children>
                   </Pane>
                </children>
             </AnchorPane>
          </children>
       </HBox>
-      <ScrollPane fx:id="scrollPane" layoutY="188.0" prefHeight="616.0" prefWidth="1400.0" />
+      <ScrollPane fx:id="scrollPane" layoutY="140.0" prefHeight="662.0" prefWidth="1400.0" />
 		
 	</children>
 </AnchorPane>

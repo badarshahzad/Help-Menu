@@ -20,13 +20,13 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="addEntryAnchorPane" minHeight="-Infinity" minWidth="-Infinity" opacity="0.8" prefHeight="677.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.72" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddEntryController">
+<AnchorPane fx:id="addEntryLayout" minHeight="-Infinity" minWidth="-Infinity" opacity="0.9" prefHeight="677.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddEntryController">
    <children>
-      <BorderPane prefHeight="600.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <BorderPane opacity="0.9" prefHeight="600.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <center>
-            <SplitPane dividerPositions="0.596989966555184" prefHeight="800.0" prefWidth="1280.0" BorderPane.alignment="CENTER">
+            <SplitPane dividerPositions="0.596989966555184" opacity="0.9" prefHeight="800.0" prefWidth="1280.0" BorderPane.alignment="CENTER">
               <items>
-                <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0">
+                <AnchorPane minHeight="-Infinity" minWidth="-Infinity" opacity="0.8" prefHeight="600.0" prefWidth="800.0">
                      <children>
                         <GridPane hgap="10.0" layoutX="130.0" layoutY="20.0" opacity="0.8" vgap="20.0" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="20.0">
                           <columnConstraints>
@@ -303,7 +303,7 @@
                         <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
                      </padding>
                   </AnchorPane>
-                <AnchorPane maxHeight="600.0" maxWidth="250.0" prefHeight="600.0" prefWidth="250.0">
+                <AnchorPane maxHeight="600.0" maxWidth="250.0" opacity="0.9" prefHeight="600.0" prefWidth="250.0">
                      <children>
                         <VBox alignment="CENTER" fillWidth="false" prefHeight="598.0" prefWidth="252.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
@@ -332,7 +332,7 @@
             </SplitPane>
          </center>
          <bottom>
-            <HBox prefHeight="20.0" BorderPane.alignment="CENTER" />
+            <HBox opacity="0.9" prefHeight="20.0" BorderPane.alignment="CENTER" />
          </bottom>
       </BorderPane>
    </children>
